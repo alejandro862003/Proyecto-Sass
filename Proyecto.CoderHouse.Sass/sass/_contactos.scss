@@ -1,0 +1,38 @@
+/*Contactos*/
+form{
+    width: 450px;
+    margin: auto;
+    background: rgb(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.texto-dos{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px !important;/*puse un important porque no me esta tomando lo que quiero realizar,si lo saco se rompe*/
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background: #272727;
+    color: #fcf8f8;
+    padding: 20px;
+    text-align: center;
+    :hover{
+        cursor: pointer;
+    }
+}

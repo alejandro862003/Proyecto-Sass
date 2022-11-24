@@ -1,0 +1,28 @@
+//Recorridos
+.recorridos{
+    display: inline;
+    flex-direction: column;
+}
+article{
+    border: 4px solid black;
+    margin: 20px;
+}
+.articulos-recorridos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+    img{
+        width: 50%;
+        height: 300px;
+        border: 5px solid;
+    }
+}
+.articulos-recorridos p{
+    font-size: 2rem;
+    margin: 10px;
+}
+.recorridos-titulos{
+    margin-top: 10%;
+}
+

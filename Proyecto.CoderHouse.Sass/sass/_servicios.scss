@@ -1,0 +1,26 @@
+//Servicio
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    img{
+        width: 400px;
+        height: 400px;
+        border:  10px solid $colorCoral;
+        margin-left: 30px;
+    }
+}
+main h3,h2,h4{
+    font-size: 40px !important;
+    color: #f3ecec;
+    align-items: center;
+    padding-top: 3rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+main p{
+    font-size: 2rem;
+    color: #f3ecec;
+    align-items: center;
+}
