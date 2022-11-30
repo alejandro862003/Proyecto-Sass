@@ -1,6 +1,7 @@
 //Mis variables.
 $colorGreen:#589837;
 $colorCoral:darkorange;
+$colorNegro:#000000;
 //Mis scss importados.
 @import 'contactos';
 @import 'galeria';
@@ -20,6 +21,9 @@ body {
     background-image: url(../img/fondo.jpeg);
     background-size:cover;
     background-attachment: fixed;
+}
+section h1{
+    font-size: 1em;
 }
 /*Boostrap nav-bar*/
 .navbar-brand img{
@@ -44,6 +48,32 @@ a.nav-link {
 a.nav-link:hover{
     color: #f3ecec;
     transition: 0.5s;
+}
+//Carrusel
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.carousel-caption p{
+    font-size: 25px;
+    color: $colorNegro;
+    text-align: center;
+    font-family: monospace;
+}
+.carousel-caption h5{
+    color: $colorNegro;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+.carousel-inner{
+    border: 2px solid;
+}
+
+//Seccion Principal del index
+section h1{
+    font-size: 1em;
 }
 section { 
     width: 100%;

@@ -280,7 +280,7 @@ main p {
   }
   .galeria-img {
     width: 100%;
-    height: auto;
+    height: 350px;
     margin-bottom: 43px;
     margin-left: 10px;
   }
@@ -395,6 +395,10 @@ body {
   background-attachment: fixed;
 }
 
+section h1 {
+  font-size: 1em;
+}
+
 /*Boostrap nav-bar*/
 .navbar-brand img {
   width: 100%;
@@ -420,6 +424,34 @@ a.nav-link {
 a.nav-link:hover {
   color: #f3ecec;
   transition: 0.5s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.carousel-caption p {
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  font-family: monospace;
+}
+
+.carousel-caption h5 {
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.carousel-inner {
+  border: 2px solid;
+}
+
+section h1 {
+  font-size: 1em;
 }
 
 section {
